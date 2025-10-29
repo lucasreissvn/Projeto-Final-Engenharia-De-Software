@@ -77,7 +77,7 @@ http://localhost:3000
 
 | Camada            | Tecnologias              |
 |--------------------|--------------------------|
-| **Frontend**       | HTML, CSS, JavaScript    |
+| **Frontend**       | HTML, CSS e JavaScript    |
 | **Backend**        | Node.js v22.21.0         |
 | **Banco de Dados** | PostgreSQL v18.0         |
 | **IDE**            | Visual Studio Code       |
@@ -103,3 +103,4 @@ School-Management
 ├── README.md                 # Documentação principal do projeto
 └── package.json              # Dependências e scripts do Node.js
 ```
+Desenvolvedores -> Lucas Reis Silvino e Helder Jose Avila
