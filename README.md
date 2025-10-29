@@ -21,7 +21,7 @@ O sistema proporciona **organização, segurança e praticidade** na gestão esc
 
 ### 📥 Passo 1: Clonar o Repositório
 ```bash
-git clone https://github.com/SEU-USUARIO/School-Management.git
+git clone https://github.com/lucasreissvn/Projeto-Final-Engenharia-De-Software
 ```
 
 ### 📂 Passo 2: Acessar a Pasta do Projeto
@@ -51,7 +51,7 @@ http://localhost:3000
 
 ### 3.1 Clonar o Projeto
 ```bash
-git clone https://github.com/SEU-USUARIO/School-Management.git
+git clone https://github.com/lucasreissvn/Projeto-Final-Engenharia-De-Software
 ```
 
 ### 3.2 Instalar Dependências
