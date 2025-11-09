@@ -11,7 +11,7 @@ O **Sistema de Gestão Escolar (School Management)** oferece uma aplicação web
 
 - **Cursos** – cadastro e controle de cursos.  
 - **Alunos, Turmas e Matrículas** – gerenciamento de matrículas escolares.  
-- **Usuários (autenticação)** – controle de acesso: administrador, funcionário e professor.
+- **Usuários (autenticação)** – controle de acesso: administrador e professor.
 
 O sistema proporciona **organização, segurança e praticidade** na gestão escolar.
 
