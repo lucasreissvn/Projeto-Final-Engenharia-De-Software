@@ -103,4 +103,4 @@ School-Management
 ├── README.md                 # Documentação principal do projeto
 └── package.json              # Dependências e scripts do Node.js
 ```
-Desenvolvedores -> Lucas Reis Silvino e Helder Jose Avila
+Desenvolvedores -> Lucas Reis Silvino e Helder Jose Ávila
