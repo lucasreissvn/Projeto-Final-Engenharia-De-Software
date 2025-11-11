@@ -83,7 +83,7 @@ http://localhost:3000
 | **IDE**            | Visual Studio Code       |
 
 ---
-## 5. Organização do Projeto
+## 📁 5. Organização do Projeto
 ```
 School-Management
 ├── backend/                  # Lógica do servidor e APIs
@@ -103,4 +103,4 @@ School-Management
 ├── README.md                 # Documentação principal do projeto
 └── package.json              # Dependências e scripts do Node.js
 ```
-Desenvolvedores -> Lucas Reis Silvino e Helder Jose Ávila
+
