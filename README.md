@@ -86,14 +86,22 @@ http://localhost:3000
 ## 📁 5. Organização do Projeto
 ```
 School-Management
-├── backend/                  # Lógica do servidor e APIs
-│   ├── controllers/          # Funções que recebem requisições e chamam serviços
-│   ├── repositories/         # Acesso ao banco de dados
-│   ├── services/             # Regras de negócio e processamento de dados
-│   ├── routes/               # Rotas da aplicação
-│   └── views/                # Templates e páginas renderizadas pelo backend
-├── documentacao/             # Documentos, diagramas e anotações do projeto
-├── README.md                 # Documentação principal do projeto
-└── package.json              # Dependências e scripts do Node.js
+├── backend/
+│   └── src/
+│       ├── config/           # Configurações (DB, variáveis, etc.)
+│       ├── controllers/      # Controladores das rotas
+│       ├── middleware/       # Middlewares (auth, validações...)
+│       ├── models/           # Modelos e entidades do sistema
+│       ├── public/           # Arquivos estáticos (CSS, JS, imagens)
+│       ├── routes/           # Definição de rotas
+│       └── views/            # Templates EJS
+│
+├── documentacao/
+│   ├── Requisitos/           # Especificações e levantamentos de requisitos
+│   └── Diagramas/            # Casos de uso, DER, UML, BPMN, etc.
+│
+├── Padrões Adotados/         # Convenções e padrões utilizados no projeto
+│
+├── README.md                 # Documentação principal
 ```
 
