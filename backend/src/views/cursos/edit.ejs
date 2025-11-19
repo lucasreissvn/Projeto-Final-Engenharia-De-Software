@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="/css/edit.css">
+
+<body>
+    <div>
+        <h2>Editar Curso</h2>
+        
+        <form action="/cursos/edit/<%= curso.id_curso %>" method="POST">
+            Nome:
+            <input type="text" name="nome_curso" value="<%= curso.nome_curso %>" required><br>
+        
+            Carga Horária:
+            <input type="number" name="carga_horaria" value="<%= curso.carga_horaria %>" required><br>
+        
+            <button type="submit">Salvar</button>
+        
+        </form>
+    </div>
+</body>

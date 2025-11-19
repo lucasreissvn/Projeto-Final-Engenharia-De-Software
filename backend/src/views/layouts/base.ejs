@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Escolar</title>
+</head>
+<body>
+
+<nav>
+    <% if (user) { %>
+        Logado como: <%= user.nome %> (<%= user.role %>)
+        | <a href="/logout">Sair</a>
+    <% } %>
+</nav>
+
+<hr>
+
+<%- body %>
+</body>
+</html>

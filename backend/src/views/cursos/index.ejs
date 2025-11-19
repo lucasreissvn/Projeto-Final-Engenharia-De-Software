@@ -1,0 +1,37 @@
+
+<link rel="stylesheet" href="/css/index.css">
+<body>
+    <div>
+        <h2>Cursos</h2>
+    
+        <% if (user.role === 'admin') { %>
+            <a href="/cursos/new">Novo Curso</a>
+        <% } %>
+    
+        <table border="1" cellpadding="8">
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Carga Horária</th>
+                <th>Ações</th>
+            </tr>
+    
+            <% cursos.forEach(c => { %>
+                <tr>
+                    <td><%= c.id_curso %></td>
+                    <td><%= c.nome_curso %></td>
+                    <td><%= c.carga_horaria %></td>
+                    <td>
+                        <% if (user.role === 'admin') { %>
+                            <a href="/cursos/edit/<%= c.id_curso %>">Editar</a>
+                            <form action="/cursos/delete/<%= c.id_curso %>" method="POST" style="display:inline;">
+                                <button type="submit">Excluir</button>
+                            </form>
+                        <% } %>
+                    </td>
+                </tr>
+            <% }) %>
+        </table>
+    </div>
+</body>
+
