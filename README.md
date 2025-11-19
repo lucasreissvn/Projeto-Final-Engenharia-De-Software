@@ -142,7 +142,7 @@ Para manter o histórico limpo, organizado e compreensível, seguem as diretrize
 🔹 Refatorar serviço de cursos para reduzir duplicação.  
 🔹 Ajustar layout da página de cadastro.
 
-## 📝 7. Regras para Práticas de Programação
+## 📝 7. Regras para Boas Práticas de Programação
 ### Clean Code
 ***Nomes signicativos*** 
 Métodos, nomes de variáveis e etc. devem possuir nomes que signicam alguma
