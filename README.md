@@ -101,9 +101,9 @@ School-Management
 │   └── Diagramas/            # Casos de uso, DER, UML, BPMN, etc.
 
 ```
-📝  6.Definições de Regras e Padrão de uso
+## 📝 6.Definições de Regras e Padrão de uso
 Branch main
-```
+
 
 A branch main é a base oficial do projeto e deve sempre conter:
 
