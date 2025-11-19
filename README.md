@@ -100,9 +100,10 @@ School-Management
 │   ├── Requisitos/           # Especificações e levantamentos de requisitos
 │   └── Diagramas/            # Casos de uso, DER, UML, BPMN, etc.
 
-
+```
 📝  6.Definições de Regras e Padrão de uso
 Branch main
+```
 
 A branch main é a base oficial do projeto e deve sempre conter:
 
@@ -138,9 +139,4 @@ Corrigir erro no login do professor.
 Refatorar serviço de cursos para reduzir duplicação.
 Ajustar layout da página de cadastro.
 
-│
-├── Padrões Adotados/         # Convenções e padrões utilizados no projeto
-│
-├── README.md                 # Documentação principal
-```
 
