@@ -77,7 +77,7 @@ http://localhost:3000
 
 | Camada            | Tecnologias              |
 |--------------------|--------------------------|
-| **Frontend**       | HTML, CSS e JavaScript    |
+| **Frontend**       | HTML, CSS, JavaScript e EJS (template engine)  |
 | **Backend**        | Node.js v22.21.0         |
 | **Banco de Dados** | PostgreSQL v18.0         |
 | **IDE**            | Visual Studio Code       |
@@ -92,13 +92,6 @@ School-Management
 │   ├── services/             # Regras de negócio e processamento de dados
 │   ├── routes/               # Rotas da aplicação
 │   └── views/                # Templates e páginas renderizadas pelo backend
-│
-├── frontend/                 # Interface do usuário (HTML, CSS e JS)
-│   ├── index.html            # Página principal
-│   ├── css/                  # Estilos da aplicação
-│   ├── js/                   # Scripts do frontend
-│   └── assets/               # Imagens e ícones
-│
 ├── documentacao/             # Documentos, diagramas e anotações do projeto
 ├── README.md                 # Documentação principal do projeto
 └── package.json              # Dependências e scripts do Node.js
