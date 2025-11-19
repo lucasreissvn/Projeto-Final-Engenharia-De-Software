@@ -110,10 +110,13 @@ A branch main é a base oficial do projeto e deve sempre conter:
 📦 O que fica na main:
 
 ✔️ Código final e estável
-✔️ Documentação oficial, como:
-  Requisitos, Diagramas, Documentos e Modelos
 
-🏛️ Função da main
+✔️ Documentação oficial e
+
+  **Requisitos, Diagramas, Documentos e Modelos**
+
+ Função da main
+
 A main representa a versão mais estável, atual e oficial do projeto.
 Nenhuma modificação deve ser enviada diretamente para ela sem revisão.
 
@@ -123,20 +126,40 @@ Para manter o histórico limpo, organizado e compreensível, seguem as diretrize
 
 🎯 Regras principais
 
-🔹 Cada commit deve ter um nome intuitivo, indicando claramente o que foi feito.
-🔹 As mensagens devem ser curtas, diretas e objetivas.
+🔹 Cada commit deve ter um nome intuitivo, indicando claramente o que foi feito.  
+🔹 As mensagens devem ser curtas, diretas e objetivas.  
 🔹 Evitar mensagens vagas ou genéricas.
 
 ❌ Evite commits como:
 
 “arrumei coisas”, “alterei coisas”, “ajeitei”, “correções”,“update”
 
-✔️ Prefirir commits como:
+✔️ Prefirir commits como:  
 
-Adicionar validação no formulário de matrícula.
-Atualizar diagrama de sequência.
-Corrigir erro no login do professor.
-Refatorar serviço de cursos para reduzir duplicação.
-Ajustar layout da página de cadastro.
+🔹 Adicionar validação no formulário de matrícula.  
+🔹 Atualizar diagrama de sequência.  
+🔹 Corrigir erro no login do professor  
+🔹 Refatorar serviço de cursos para reduzir duplicação.  
+🔹 Ajustar layout da página de cadastro.
 
+## 📝 7. Regras para Práticas de Programação
+### Clean Code
+***Nomes signicativos*** 
+Métodos, nomes de variáveis e etc. devem possuir nomes que signicam alguma
+coisa em relação ao seu objetivo
 
+***Refatoração*** 
+É a ação de reorganizar, simplificar ou tornar mais claro o mesmo código.
+
+***Formatação***
+A formatação do código deve ser consistente, com indentação correta, espaços adequados e linhas legíveis, facilitando a leitura e manutenção. Nomes claros e organização visual dos blocos tornam o código mais compreensível e colaborativo.
+
+### Solid
+***Single Responsibility Principle (SRP)***
+Cada classe ou módulo deve ter uma única responsabilidade ou motivo para mudar.
+
+***Open/Closed Principle (OCP)***
+O código deve estar aberto para extensão, mas fechado para modificação. Ou seja, você deve poder adicionar funcionalidades sem alterar o código existente.
+
+***Interface Segregation Principle (ISP)***
+Prefira interfaces pequenas e específicas a interfaces grandes e genéricas. Clientes não devem ser forçados a depender de métodos que não usam.
