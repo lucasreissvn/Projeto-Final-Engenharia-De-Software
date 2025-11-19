@@ -99,6 +99,45 @@ School-Management
 ├── documentacao/
 │   ├── Requisitos/           # Especificações e levantamentos de requisitos
 │   └── Diagramas/            # Casos de uso, DER, UML, BPMN, etc.
+
+
+📝  6.Definições de Regras e Padrão de uso
+Branch main
+
+A branch main é a base oficial do projeto e deve sempre conter:
+
+📦 O que fica na main:
+
+✔️ Código final e estável
+✔️ Documentação oficial, como:
+  Requisitos, Diagramas, Documentos e Modelos
+
+🏛️ Função da main
+A main representa a versão mais estável, atual e oficial do projeto.
+Nenhuma modificação deve ser enviada diretamente para ela sem revisão.
+
+📝 Padrões para Commits
+
+Para manter o histórico limpo, organizado e compreensível, seguem as diretrizes:
+
+🎯 Regras principais
+
+🔹 Cada commit deve ter um nome intuitivo, indicando claramente o que foi feito.
+🔹 As mensagens devem ser curtas, diretas e objetivas.
+🔹 Evitar mensagens vagas ou genéricas.
+
+❌ Evite commits como:
+
+“arrumei coisas”, “alterei coisas”, “ajeitei”, “correções”,“update”
+
+✔️ Prefirir commits como:
+
+Adicionar validação no formulário de matrícula.
+Atualizar diagrama de sequência.
+Corrigir erro no login do professor.
+Refatorar serviço de cursos para reduzir duplicação.
+Ajustar layout da página de cadastro.
+
 │
 ├── Padrões Adotados/         # Convenções e padrões utilizados no projeto
 │
