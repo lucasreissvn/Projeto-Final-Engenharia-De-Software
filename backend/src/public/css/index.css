@@ -106,3 +106,21 @@ form button {
 form button:hover {
     background-color: #b30000;
 }
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+}
+
+nav a {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.2s;
+}

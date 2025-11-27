@@ -27,7 +27,8 @@ module.exports = {
             role: user.role
         };
 
-        res.redirect("/cursos");
+        res.redirect("/dashboard");
+
     },
 
     logout(req, res) {

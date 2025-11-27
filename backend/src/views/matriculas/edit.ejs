@@ -1,0 +1,110 @@
+<%- include('../layouts/base') %>
+
+<div class="edit-container">
+    <h2 class="titulo">Editar Matrícula</h2>
+
+    <form action="/matriculas/<%= matricula.id_matricula %>/edit" method="POST" class="form-card">
+
+        <label>Aluno:</label>
+        <select name="id_aluno" required>
+            <% alunos.forEach(a => { %>
+                <option value="<%= a.id_aluno %>"
+                    <%= a.id_aluno === matricula.id_aluno ? "selected" : "" %>>
+                    <%= a.nome %>
+                </option>
+            <% }) %>
+        </select>
+
+        <label>Turma:</label>
+        <select name="id_turma" required>
+            <% turmas.forEach(t => { %>
+                <option value="<%= t.id_turma %>"
+                    <%= t.id_turma === matricula.id_turma ? "selected" : "" %>>
+                    <%= t.nome_turma %>
+                </option>
+            <% }) %>
+        </select>
+
+        <label>Status:</label>
+        <select name="status" required>
+            <option value="ativada"   <%= matricula.status === "ativada" ? "selected" : "" %>>Ativada</option>
+            <option value="trancada"  <%= matricula.status === "trancada" ? "selected" : "" %>>Trancada</option>
+        </select>
+
+        <button type="submit" class="btn-salvar">Salvar Alterações</button>
+
+    </form>
+</div>
+
+<style>
+    body {
+        background: #dcdcdc; /* cinza */
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .edit-container {
+        max-width: 600px;
+        margin: 40px auto;
+        padding: 0;
+        border-radius: 15px;
+        overflow: hidden;
+
+        background-image: linear-gradient(#128847, #15F673);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    }
+
+    .titulo {
+        text-align: center;
+        color: white;
+        padding: 20px 0;
+        font-size: 26px;
+        text-shadow: 1px 1px 2px #000;
+    }
+
+    .form-card {
+        background: white;
+        padding: 25px;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .form-card label {
+        display: block;
+        margin-top: 15px;
+        font-weight: bold;
+        color: #1a613f;
+    }
+
+    .form-card select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #aaa;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+    .btn-salvar {
+        margin-top: 25px;
+        width: 100%;
+        padding: 14px;
+        color: #fff;
+        background: #0f5c33;
+        border: 3px solid #0c4727;
+        border-radius: 10px;
+        font-size: 17px;
+        font-weight: bold;
+        cursor: pointer;
+        letter-spacing: 0.5px;
+        transition: 0.25s ease-in-out;
+        text-transform: uppercase;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    }
+
+    .btn-salvar:hover {
+        background: #138f50;
+        border-color: #0f5c33;
+        transform: scale(1.03);
+        box-shadow: 0 5px 12px rgba(0,0,0,0.4);
+    }
+</style>

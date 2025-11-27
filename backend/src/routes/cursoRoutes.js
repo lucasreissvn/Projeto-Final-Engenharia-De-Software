@@ -3,7 +3,9 @@ const router = express.Router();
 const cursoController = require('../controllers/cursoController');
 
 const auth = require('../middleware/auth');
-const permit = require('../middleware/roles');
+const { permit } = require("../middleware/roles");
+console.log("permit carregado:", permit);
+
 
 router.get("/", auth, permit('admin','professor'), cursoController.list);
 

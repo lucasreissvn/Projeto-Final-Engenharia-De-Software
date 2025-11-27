@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Sistema Escolar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema</title>
 </head>
 <body>
 
 <nav>
-    <% if (user) { %>
-        Logado como: <%= user.nome %> (<%= user.role %>)
-        | <a href="/logout">Sair</a>
-    <% } %>
+    <a href="/cursos">Gerenciar Cursos</a> |
+    <a href="/matriculas">Gerenciar Matrículas</a> |
+    <a href="/logout">Sair</a>
 </nav>
 
 <hr>
-
-<%- body %>
-</body>
-</html>
