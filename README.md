@@ -152,7 +152,7 @@ coisa em relação ao seu objetivo
 É a ação de reorganizar, simplificar ou tornar mais claro o mesmo código.
 
 ***Formatação***
-A formatação do código deve ser consistente, com indentação correta, espaços adequados e linhas legíveis, facilitando a leitura e manutenção. Nomes claros e organização visual dos blocos tornam o código mais compreensível e colaborativo.
+A formatação do código deve ser consistente, utilizando uma indentação padronizada, preferencialmente 4 espaços por nível de tabulação.
 
 ### Solid
 ***Single Responsibility Principle (SRP)***
