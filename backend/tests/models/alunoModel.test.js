@@ -1,4 +1,5 @@
 // Mock do pool
+// npm run test:cov
 jest.mock('../../src/config/db', () => ({
     query: jest.fn()
 }));
